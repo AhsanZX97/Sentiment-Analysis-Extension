@@ -3,7 +3,7 @@
 // context, so the existing X login just works — no header stripping needed.
 // An alarm reloads the popup every REFRESH_SECONDS to keep the Latest tab live.
 
-const REFRESH_SECONDS = 45; // keep 30–60s — faster risks X search rate limits
+const REFRESH_SECONDS = 30; // keep 30–60s — faster risks X search rate limits
 const ALARM = 'reload-x';
 const TOKEN_PAGE_RE = /^https:\/\/gmgn\.ai\/[^/]+\/token\//;
 const BASE58_RE = /^[1-9A-HJ-NP-Za-km-z]{32,44}$/;
