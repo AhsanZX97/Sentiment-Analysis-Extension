@@ -1,0 +1,10 @@
+# Chrome extension signing key — never commit this
+*.pem
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# If you ever add a build step
+node_modules/
+dist/
